@@ -8,6 +8,7 @@ variable "region" {
 variable "bucket_name" {
 
   description = "Unique S3 bucket name"
+  default     = "ojas-demo-bucket-123456"
 
 }
 
